@@ -43,11 +43,11 @@ end
 
 
 def kesha_maker(array)
-  newarray=[]
-  array.each do |x|
-    newarray.push(x.gsub(x[2],"$"))
+  
+  array.collect do |x|
+    x.gsub(x[2],"$")
   end
-  newarray
+  
 end
 
 
