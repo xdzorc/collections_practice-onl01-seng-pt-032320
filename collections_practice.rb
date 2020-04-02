@@ -32,10 +32,14 @@ end
   
   
 def reverse_array(array)
-  array.collect do 
-  
-  
-  
+  array.collect do |x|
+    i=array.length-1
+    while i>=0
+      array[i]  
+      i-=1
+     end
+   end
+ end
   
   
   
