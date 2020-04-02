@@ -60,6 +60,21 @@ def sum_array(array)
 end
 
 
+def add_s(array)
+  new=[]
+  array.collect do |x|
+    new=x.push("s")
+  end
+  new[1].pop
+  return new
+end
+    
+  
+  
+  
+  
+
+
 
 
 
