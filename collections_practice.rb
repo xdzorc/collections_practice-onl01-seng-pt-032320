@@ -65,7 +65,7 @@ def add_s(array)
   array.collect do |x|
     new.push(x<<("s"))
   end
-  new[1].delete_suffix("s")
+  new[1].delete_suffix!("s")
   return new
 end
     
