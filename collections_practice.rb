@@ -63,7 +63,7 @@ end
 def add_s(array)
   new=[]
   array.collect do |x|
-    new=x.push("s")
+    new.push(x<<("s"))
   end
   new[1].pop
   return new
