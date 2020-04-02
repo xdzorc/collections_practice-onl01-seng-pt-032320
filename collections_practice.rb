@@ -47,8 +47,11 @@ def kesha_maker(array)
   array.collect do |x|
     x.sub(x[2],"$")
   end
-  
 end
+
+
+def find_a(array)
+  
 
 
 
